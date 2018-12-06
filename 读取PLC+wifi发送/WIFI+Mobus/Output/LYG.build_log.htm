@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=0VR8T-RD819-PFSIX-HAFQG-8QH67-630RF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+F:\plc+stm32\读取PLC+wifi发送\WIFI+Mobus\Project\RVMDK（uv4）\WIFI.uvprojx
+Project File Date:  10/25/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'LYG'
+compiling main.c...
+..\..\User\ESP8266\esp8266.h(132): warning:  #1295-D: Deprecated declaration packagedata - give arg types
+  void packagedata();
+..\..\User\mod\mod.h(61): warning:  #1295-D: Deprecated declaration claer - give arg types
+  void claer();
+..\..\User\main.c(36): warning:  #223-D: function "esp8266_connection" declared implicitly
+  	esp8266_connection();
+..\..\User\main.c(44): warning:  #223-D: function "read_hold_register_03" declared implicitly
+  						read_hold_register_03(1,0,3);
+..\..\User\main.c(47): warning:  #223-D: function "modbus_rev_deal" declared implicitly
+  				if(modbus_rev_deal()==1)//回复的数据帧正确
+..\..\User\main.c(27): warning:  #177-D: variable "ucStatus"  was declared but never referenced
+  	uint8_t ucStatus;
+..\..\User\main.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=8912 RO-data=948 RW-data=136 ZI-data=2696  
+FromELF: creating hex file...
+"..\..\Output\LYG.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_LYG
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

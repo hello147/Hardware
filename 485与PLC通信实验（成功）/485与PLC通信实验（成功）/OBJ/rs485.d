@@ -1,0 +1,12 @@
+..\obj\rs485.o: ..\HARDWARE\RS485\rs485.c
+..\obj\rs485.o: ..\SYSTEM\sys\sys.h
+..\obj\rs485.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\obj\rs485.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\obj\rs485.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\obj\rs485.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\obj\rs485.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\obj\rs485.o: ..\HARDWARE\RS485\rs485.h
+..\obj\rs485.o: ..\SYSTEM\delay\delay.h
+..\obj\rs485.o: ..\HARDWARE\LED\led.h
+..\obj\rs485.o: ..\HARDWARE\LCD\lcd.h
+..\obj\rs485.o: D:\MDK4.72\ARM\ARMCC\bin\..\include\stdlib.h

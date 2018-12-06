@@ -1,0 +1,17 @@
+..\..\output\sim800.o: sim800.c
+..\..\output\sim800.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\sim800.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\sim800.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\sim800.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\sim800.o: ..\..\User\stm32f10x_conf.h
+..\..\output\sim800.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\sim800.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\sim800.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\sim800.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
+..\..\output\sim800.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\sim800.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\output\sim800.o: sim800.h
+..\..\output\sim800.o: ..\..\User\ESP8266\esp8266.h
+..\..\output\sim800.o: ..\..\User\Common\common.h
+..\..\output\sim800.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\sim800.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

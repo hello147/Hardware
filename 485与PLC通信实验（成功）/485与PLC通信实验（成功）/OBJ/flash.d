@@ -1,0 +1,12 @@
+..\obj\flash.o: ..\HARDWARE\FLASH\flash.c
+..\obj\flash.o: ..\HARDWARE\FLASH\flash.h
+..\obj\flash.o: ..\SYSTEM\sys\sys.h
+..\obj\flash.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\obj\flash.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\obj\flash.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\obj\flash.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\obj\flash.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\obj\flash.o: ..\HARDWARE\SPI\spi.h
+..\obj\flash.o: ..\SYSTEM\delay\delay.h
+..\obj\flash.o: ..\SYSTEM\usart\usart.h
+..\obj\flash.o: D:\MDK4.72\ARM\ARMCC\bin\..\include\stdio.h
